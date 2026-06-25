@@ -13,6 +13,7 @@
 
 - Next.js 16
 - React 19
+- React Native
 - TypeScript
 - Tailwind CSS 4
 - Supabase
