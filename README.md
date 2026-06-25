@@ -6,7 +6,7 @@
 
 ## Live
 
-- Site: https://m2nhyun-blog-v2.vercel.app
+- Production: https://m2nhyun-blog-v2.vercel.app
 - GitHub: https://github.com/m2nhyun/m2nhyun-blog-v2
 
 ## Stack
