@@ -3,6 +3,7 @@ import "./globals.css";
 import "highlight.js/styles/github-dark.css";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { ui } from "@/styles/theme";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko" className="h-full antialiased">
-      <body className="min-h-full flex flex-col"><Header /><main className="main-content">{children}</main><Footer /></body>
+      <body className={ui.app.body}><Header /><main className={ui.app.main}>{children}</main><Footer /></body>
     </html>
   );
 }
